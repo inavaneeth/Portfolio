@@ -1,21 +1,21 @@
 @font-face {
     font-family: "gt-ws";
-    src: url("Assets/GT-Walsheim-Medium-Oblique-Trial-BF651b7fc69eff5.otf");
+    src: url("GT-Walsheim-Medium-Oblique-Trial-BF651b7fc69eff5.otf");
 }
 
 @font-face {
     font-family: "gt-wm";
-    src: url("Assets/GT-Walsheim-Light-Trial-BF651b7fc714941.otf");
+    src: url("GT-Walsheim-Light-Trial-BF651b7fc714941.otf");
 }
 
 @font-face {
     font-family: "gt-wl";
-    src: url("Assets/GT-Walsheim-Condensed-Medium-Oblique-Trial-BF651b7fc67f44b.otf");
+    src: url("GT-Walsheim-Condensed-Medium-Oblique-Trial-BF651b7fc67f44b.otf");
 }
 
 @font-face {
     font-family: "gt-wll";
-    src: url("Assets/GT-Walsheim-Light-Trial-BF651b7fc714941.otf");
+    src: url("GT-Walsheim-Light-Trial-BF651b7fc714941.otf");
 }
 
 body {
