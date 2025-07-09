@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "gt-ws";
+    src: url("Assets/GT-Walsheim-Medium-Oblique-Trial-BF651b7fc69eff5.otf");
+}
+
+@font-face {
+    font-family: "gt-wm";
+    src: url("Assets/GT-Walsheim-Light-Trial-BF651b7fc714941.otf");
+}
+
+@font-face {
+    font-family: "gt-wl";
+    src: url("Assets/GT-Walsheim-Condensed-Medium-Oblique-Trial-BF651b7fc67f44b.otf");
+}
+
+@font-face {
+    font-family: "gt-wll";
+    src: url("Assets/GT-Walsheim-Light-Trial-BF651b7fc714941.otf");
+}
+
+body {
+    background-color: #111;
+    color: #fff;
+    text-align: left;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "gt-wm";
+}
+
+#head {
+    display: flex;
+    justify-content: space-between;
+    font-family: "gt-wm";
+    padding: 0% 5%;
+}
+
+h3 {
+    font-family: "gt-wl";
+}
+
+h1 {
+    font-family: "gt-ws";
+    background: linear-gradient(to right, #9845E8, #33D2FF, #DD5789);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 90px;
+    margin: 0%;
+}
+
+#nav {
+    overflow: hidden;
+    text-align: center;
+}
+
+p {
+    font-family: "gt-wll";
+    margin: 0%;
+    font-size: large;
+    font-weight: lighter;
+}
+
+#nav a {
+    float: right;
+    display: block;
+
+    text-align: center;
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.txt {
+    padding: 15% 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pg {
+    margin-top: 1%;
+    line-height: 25px;
+}
