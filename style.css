@@ -1,3 +1,13 @@
+:root {
+    --primary-color: #fff;
+    --secondary-color: #111;
+}
+
+.darkmode {
+    --primary-color: #111;
+    --secondary-color: #fff;
+}
+
 @font-face {
     font-family: "gt-ws";
     src: url("GT-Walsheim-Medium-Oblique-Trial-BF651b7fc69eff5.otf");
@@ -19,8 +29,8 @@
 }
 
 body {
-    background-color: #111;
-    color: #fff;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
     text-align: left;
     margin-top: 2%;
     margin-left: auto;
@@ -61,14 +71,20 @@ p {
     font-weight: lighter;
 }
 
-#nav a {
+.links {
     float: right;
-    display: block;
+    display: flex;
+}
 
+#nav a {
     text-align: center;
-    color: #fff;
+    color: var(--primary-color);
     padding: 14px 20px;
     text-decoration: none;
+}
+
+#nav a:hover {
+    text-decoration: underline;
 }
 
 .txt {
@@ -80,4 +96,33 @@ p {
 #pg {
     margin-top: 1%;
     line-height: 25px;
+}
+
+#toggleMode {
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    border-radius: 50%;
+    background: none;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#toggleMode svg {
+    fill: var(--primary-color);
+}
+
+#toggleMode svg:last-child {
+    display: none;
+}
+
+.darkmode #toggleMode svg:first-child {
+    display: none;
+}
+
+.darkmode #toggleMode svg:last-child {
+    display: block;
 }
