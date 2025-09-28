@@ -32,17 +32,27 @@ body {
     background-color: var(--secondary-color);
     color: var(--primary-color);
     text-align: left;
-    margin-top: 2%;
+    min-height: 100vh;
+    margin-top: 0%;
     margin-left: auto;
     margin-right: auto;
     font-family: "gt-wll";
 }
 
 #head {
+    position: fixed;
+    width: 90%;
     display: flex;
+    padding-top: 1%;
+    background-color: var(--secondary-color);
     justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
     font-family: "gt-wll";
-    padding: 0% 5%;
+}
+
+#head:last-child {
+    margin-right: auto;
 }
 
 h3 {
@@ -145,7 +155,6 @@ p {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 5%;
 }
 
 .title {
